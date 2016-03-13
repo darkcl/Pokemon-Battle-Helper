@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import PokemonKit
 
 class RootViewController: UIViewController {
     
@@ -22,6 +23,10 @@ class RootViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        PokemonKit.fetchPokemon("1").then { response -> Void in
+            print(response)
+        }
+        
     }
 
     override func didReceiveMemoryWarning() {

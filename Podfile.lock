@@ -1,5 +1,10 @@
 PODS:
+  - Alamofire (3.2.1)
+  - AlamofireObjectMapper (2.1.2):
+    - Alamofire (~> 3.2)
+    - ObjectMapper (~> 1.0)
   - Expecta (1.0.5)
+  - ObjectMapper (1.1.5)
   - OCMock (3.2.2)
   - OHHTTPStubs (4.7.1):
     - OHHTTPStubs/Default (= 4.7.1)
@@ -14,18 +19,48 @@ PODS:
   - OHHTTPStubs/NSURLSession (4.7.1):
     - OHHTTPStubs/Core
   - OHHTTPStubs/OHPathHelpers (4.7.1)
+  - OMGHTTPURLRQ (3.1.1):
+    - OMGHTTPURLRQ/RQ (= 3.1.1)
+  - OMGHTTPURLRQ/FormURLEncode (3.1.1)
+  - OMGHTTPURLRQ/RQ (3.1.1):
+    - OMGHTTPURLRQ/FormURLEncode
+    - OMGHTTPURLRQ/UserAgent
+  - OMGHTTPURLRQ/UserAgent (3.1.1)
+  - PokemonKit (1.0.1):
+    - Alamofire (~> 3.0)
+    - AlamofireObjectMapper (~> 2.1)
+    - PromiseKit
+  - PromiseKit (3.0.3):
+    - PromiseKit/Foundation (= 3.0.3)
+    - PromiseKit/QuartzCore (= 3.0.3)
+    - PromiseKit/UIKit (= 3.0.3)
+  - PromiseKit/CorePromise (3.0.3)
+  - PromiseKit/Foundation (3.0.3):
+    - OMGHTTPURLRQ (~> 3.1.0)
+    - PromiseKit/CorePromise
+  - PromiseKit/QuartzCore (3.0.3):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (3.0.3):
+    - PromiseKit/CorePromise
   - Specta (1.0.5)
 
 DEPENDENCIES:
   - Expecta
   - OCMock
   - OHHTTPStubs
+  - PokemonKit
   - Specta
 
 SPEC CHECKSUMS:
+  Alamofire: f11d8624a05f5d39e0c99309b3e600a3ba64298a
+  AlamofireObjectMapper: 82391c31f23e37bdb2660da174bcf81b202da39d
   Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
+  ObjectMapper: 528b1a6677a6acac7747edd508576983e76a9148
   OCMock: 18c9b7e67d4c2770e95bb77a9cc1ae0c91fe3835
   OHHTTPStubs: f7d1604d04d37d055460c0ef9af01bb249ded0fa
+  OMGHTTPURLRQ: 633f98ee745aeda02345935a52eec1784cddb589
+  PokemonKit: 18fc5fda685e44b4c5a56a08540e7a4ac0a31fd5
+  PromiseKit: 00ec2a219bf5ad2833f95977698e921932b8dfd3
   Specta: ac94d110b865115fe60ff2c6d7281053c6f8e8a2
 
 COCOAPODS: 0.39.0
