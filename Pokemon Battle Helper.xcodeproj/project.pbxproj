@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		305CB1D6C2329C3C1601C457 /* libPods-unit_tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3175FF8C76FF7B6CDC5DDA19 /* libPods-unit_tests.a */; };
 		4348710A9937FFEA74F05D2A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B142B0C23D1D9A319B9A6447 /* Images.xcassets */; };
-		48DB72E821DAD9AB5E7E10C9 /* Main.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = EB21D6417DD00088787B65FC /* Main.storyboard */; };
 		8061A647EF677728C25F65F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A962D9094F377B49D035FE1F /* AppDelegate.swift */; };
 		81B2A2E15F64B714071879D2 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A9144D89723D87F2AD64CE83 /* Settings.bundle */; };
 		93EB0B9C9204C1BA132A5240 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E13E63C1F356C03EB5053F32 /* Foundation.framework */; };
@@ -37,7 +36,6 @@
 		B142B0C23D1D9A319B9A6447 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B659B45B46073B537D524252 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E13E63C1F356C03EB5053F32 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		EB21D6417DD00088787B65FC /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		F0E4368E945BC026C694AEAA /* Pods-unit_tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit_tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests.release.xcconfig"; sourceTree = "<group>"; };
 		F7AD01FB660E229677274C07 /* UnitTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,14 +83,6 @@
 			children = (
 			);
 			path = Protocols;
-			sourceTree = "<group>";
-		};
-		2A916FD4E8E07EA2AE509744 /* Storyboards */ = {
-			isa = PBXGroup;
-			children = (
-				EB21D6417DD00088787B65FC /* Main.storyboard */,
-			);
-			path = Storyboards;
 			sourceTree = "<group>";
 		};
 		319F5E54CE0149639A413AB7 = {
@@ -204,7 +194,6 @@
 			isa = PBXGroup;
 			children = (
 				B142B0C23D1D9A319B9A6447 /* Images.xcassets */,
-				2A916FD4E8E07EA2AE509744 /* Storyboards */,
 				DD780AE4AEFC04DCDCEA6399 /* Nibs */,
 				3CBC921237507D0E67306D18 /* Other-Sources */,
 				A9144D89723D87F2AD64CE83 /* Settings.bundle */,
@@ -286,6 +275,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = "";
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "";
 			};
@@ -408,7 +398,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8061A647EF677728C25F65F7 /* AppDelegate.swift in Sources */,
-				48DB72E821DAD9AB5E7E10C9 /* Main.storyboard in Sources */,
 				F8EFE177686F40A1E5DCDBCC /* LaunchScreen.xib in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
